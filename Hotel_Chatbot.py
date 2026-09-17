@@ -1,9 +1,16 @@
 import streamlit as st
 from google import genai
 import os
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+from dotenv import load_dotenv
 
+load_dotenv()
+GOOGLE_API_KEY = st.secrets.get("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY")
+
+if not GOOGLE_API_KEY:
+    st.error("GOOGLE_API_KEY is missing. Please configure it in Streamlit Secrets.")
+    st.stop()
 st.set_page_config(page_title="Hotel Assistant", page_icon="🏨", layout="centered")
+
 
 # ---------------------------------------------------------------------------
 # Premium Black + Luxury Red styling
