@@ -1,0 +1,158 @@
+{
+  "hotel_name": "Meridian Grand Hotel",
+  "tagline": "A quiet stay in the heart of the city",
+  "address": "221 Harbor View Road, Lakeside District",
+  "contact": {
+    "phone": "+1-555-0142",
+    "email": "frontdesk@meridiangrand.example",
+    "website": "https://www.meridiangrand.example"
+  },
+  "check_in_time": "3:00 PM",
+  "check_out_time": "11:00 AM",
+  "early_check_in": {
+    "available": true,
+    "notes": "Subject to availability. Guests may request early check-in at the front desk; a fee may apply if the room is ready before 11:00 AM the same day."
+  },
+  "late_check_out": {
+    "available": true,
+    "notes": "Late check-out until 2:00 PM can be requested at the front desk, subject to availability and a possible fee. After 2:00 PM, a half-day rate applies."
+  },
+  "amenities": {
+    "swimming_pool": {
+      "available": true,
+      "details": "Outdoor heated pool on the 3rd floor terrace, open 6:00 AM - 10:00 PM daily. Towels provided poolside."
+    },
+    "gym": {
+      "available": true,
+      "details": "24-hour fitness center on the 2nd floor with cardio machines and free weights."
+    },
+    "spa": {
+      "available": true,
+      "details": "Spa services available by appointment, 9:00 AM - 8:00 PM. Contact the front desk to book."
+    },
+    "wifi": {
+      "available": true,
+      "details": "Free high-speed WiFi throughout the hotel, including guest rooms and public areas."
+    },
+    "parking": {
+      "available": true,
+      "details": "On-site self-parking is $18/night. Valet parking is $28/night. EV charging stations available."
+    },
+    "restaurant": {
+      "available": true,
+      "details": "The Harbor Room serves breakfast, lunch, and dinner daily, 6:30 AM - 10:30 PM."
+    },
+    "bar": {
+      "available": true,
+      "details": "Lakeside Lounge open daily 4:00 PM - 12:00 AM, serving cocktails and light bites."
+    },
+    "business_center": {
+      "available": true,
+      "details": "24-hour business center with printing, scanning, and two meeting rooms available for reservation."
+    },
+    "airport_shuttle": {
+      "available": true,
+      "details": "Complimentary shuttle to City Airport, running every 30 minutes from 5:00 AM - 11:00 PM. Request pickup at the front desk."
+    },
+    "pet_policy": {
+      "pets_allowed": true,
+      "details": "Pets under 25 lbs are welcome for a one-time fee of $50 per stay. Maximum 2 pets per room. Please inform the hotel in advance."
+    }
+  },
+  "breakfast": {
+    "included_room_types": ["deluxe_king", "executive_suite", "family_suite"],
+    "included_by_default": false,
+    "hours": "6:30 AM - 10:30 AM daily",
+    "location": "The Harbor Room, 1st floor",
+    "cost_if_not_included": "$22 per person, per day",
+    "notes": "Guests booked in Standard Queen rooms can add breakfast at booking or at check-in for $22/person/day."
+  },
+  "policies": {
+    "cancellation_policy": "Free cancellation up to 48 hours before check-in. Cancellations within 48 hours of check-in are charged one night's stay. No-shows are charged the full reservation amount.",
+    "payment_policy": "A valid credit card is required at check-in for incidentals. Full payment is charged at check-in unless booked through a prepaid rate.",
+    "children_policy": "Children under 12 stay free when using existing bedding. Cribs are available on request at no charge, subject to availability.",
+    "smoking_policy": "The hotel is 100% non-smoking. A $250 cleaning fee applies if evidence of smoking is found in a room.",
+    "minimum_check_in_age": 18,
+    "id_requirement": "A valid government-issued photo ID and the credit card used for booking are required at check-in."
+  },
+  "room_types": [
+    {
+      "id": "standard_queen",
+      "name": "Standard Queen Room",
+      "bed_type": "1 Queen Bed",
+      "capacity_adults": 2,
+      "capacity_children": 1,
+      "size_sqft": 280,
+      "price_per_night": 149,
+      "breakfast_included": false,
+      "amenities": ["WiFi", "Air conditioning", "Smart TV", "Mini fridge", "Work desk"],
+      "description": "A cozy room ideal for solo travelers or couples."
+    },
+    {
+      "id": "deluxe_king",
+      "name": "Deluxe King Room",
+      "bed_type": "1 King Bed",
+      "capacity_adults": 2,
+      "capacity_children": 2,
+      "size_sqft": 340,
+      "price_per_night": 189,
+      "breakfast_included": true,
+      "amenities": ["WiFi", "Air conditioning", "Smart TV", "Mini bar", "Work desk", "Lake view"],
+      "description": "A spacious room with a king bed and lake views, breakfast included."
+    },
+    {
+      "id": "twin_room",
+      "name": "Twin Room",
+      "bed_type": "2 Twin Beds",
+      "capacity_adults": 2,
+      "capacity_children": 1,
+      "size_sqft": 300,
+      "price_per_night": 159,
+      "breakfast_included": false,
+      "amenities": ["WiFi", "Air conditioning", "Smart TV", "Mini fridge"],
+      "description": "Two twin beds, well suited for friends or colleagues traveling together."
+    },
+    {
+      "id": "family_suite",
+      "name": "Family Suite",
+      "bed_type": "1 King Bed + 1 Sofa Bed",
+      "capacity_adults": 4,
+      "capacity_children": 2,
+      "size_sqft": 480,
+      "price_per_night": 259,
+      "breakfast_included": true,
+      "amenities": ["WiFi", "Air conditioning", "Smart TV", "Mini bar", "Separate living area", "Lake view"],
+      "description": "A two-area suite that comfortably fits families of up to four adults, breakfast included. Best fit for three guests."
+    },
+    {
+      "id": "executive_suite",
+      "name": "Executive Suite",
+      "bed_type": "1 King Bed",
+      "capacity_adults": 3,
+      "capacity_children": 1,
+      "size_sqft": 420,
+      "price_per_night": 289,
+      "breakfast_included": true,
+      "amenities": ["WiFi", "Air conditioning", "Smart TV", "Mini bar", "Lounge access", "Bathtub", "Lake view"],
+      "description": "Our top-tier room with access to the executive lounge, breakfast included."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is parking available?",
+      "answer": "Yes. Self-parking is $18/night and valet parking is $28/night. EV charging is available."
+    },
+    {
+      "question": "Do you allow pets?",
+      "answer": "Yes, pets under 25 lbs are welcome for a one-time fee of $50 per stay, up to 2 pets per room."
+    },
+    {
+      "question": "Is there an airport shuttle?",
+      "answer": "Yes, a complimentary shuttle runs to City Airport every 30 minutes from 5:00 AM to 11:00 PM."
+    },
+    {
+      "question": "What is the minimum age to check in?",
+      "answer": "Guests must be at least 18 years old to check in without a parent or guardian present."
+    }
+  ]
+}
