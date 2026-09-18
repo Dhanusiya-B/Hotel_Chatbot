@@ -371,9 +371,7 @@ What dining options are available?
 The application can be deployed using platforms such as:
 
 * Streamlit Community Cloud
-* Render
-* Railway
-* Hugging Face Spaces
+* LIVE DEMO LINK: https://hfwbg8cdwz65g5gsubkgyr.streamlit.app/
 
 For deployment, configure the Gemini API key using the platform's secret/environment variable settings instead of uploading the `.env` file.
 
